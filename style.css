@@ -16,6 +16,9 @@
 } */
 header{
     background-color: #fcaa70;
+    background: url("images/developer.png") , url("images/header_bg.png"),#fcaa70;
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
     
 }
@@ -53,5 +56,37 @@ nav .menu a{
     font-size: 20px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
-
+#bannar{
+    border: 1px solid red;
+    margin: 47px 38px 0 230px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bannar .bannar-content{
+    width: 585px;
+}
+#bannar .bannar-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#bannar .bannar-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#bannar .bannar-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px ;
+    margin-bottom: 30px;
+}
+#bannar .bannar-image img {
+    max-width: 585px;
+    vertical-align: middle;
+}
