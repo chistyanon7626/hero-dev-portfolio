@@ -21,6 +21,7 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
+   
 }
 .section-heading {
     max-width: 827px;
@@ -167,4 +168,52 @@ nav .menu a{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+/* end of about section */
+
+#resume {
+       padding: 130px;
+       
+       
+}
+#resume .section-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#resume .resume-card{
+    max-width: 510px;
+    margin-bottom: 60px;
+}
+#resume .resume-card h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color:#474747 ;
+    margin-top: 30px;
+}
+#resume .resume-card .title{
+    font-size: 20px;
+   margin-top: 10px; 
+    font-weight: 600;
+
+}
+#resume .resume-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-top: 20px;
+}
+.my-education h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.my-experience h2{
+     font-size: 30px;
+    font-weight: bold;
+}
+.resume-button{
+    text-align: center;
 }
